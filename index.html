@@ -1,0 +1,1194 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Programa Travel Club del Banco de Chile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "http://www.travel.cl",
+            "name": "TravelClub, Programa de lealtad del Banco de Chile",
+            "address": "Apoquindo 555, Piso 4, Las Condes, Santiago, Chile",
+            "legalName": "Comercial Promociones y Turismo S.A.",
+            "logo": "",
+            "memberOf": {
+                "@type": "ProgramMembership",
+                "hostingOrganization": {
+                    "@type": "Organization",
+                    "url": "http://www.bancodechile.cl",
+                    "name": "Banco de Chile",
+                    "address": "Apoquindo 555, Piso 4, Las Condes, Santiago, Chile"
+                },
+                "ProgramName": "Programa de beneficios Travel del Banco de Chile"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+56 600 300 9000",
+                "contactType": "Customer Service"
+            },
+            "department": [
+                {
+                    "@type": "Organization",
+                    "name": "Travel Tienda",
+                    "logo": "",
+                    "URL": "https://www.travelclub.cl/traveltienda/home.asp",
+                    "description": "Tienda virtual donde podrás acceder a productos exclusivos y a excelentes descuentos con cuotas sin interés usando tus Tarjetas de Crédito del Banco de Chile. Todas tus compras acumulan Dólares-Premio y tienen despacho a domicilio en todo Chile continental.",
+                    "makesOffer": {
+                        "itemOffered": {
+                            "@type": "Service",
+                            "serviceType": "Sitio de comercio electrónico"
+                        }
+                    }
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Travel Duty",
+                    "logo": " ",
+                    "description": "Tienda virtual para ahorrar utilizando tus Dólares-Premio en cientos de productos y servicios con despacho a domicilio en todo Chile continental. ",
+                    "URL": "https://www.travelclub.cl/tienda/home.asp",
+                    "makesOffer": {
+                        "itemOffered": {
+                            "@type": "Service",
+                            "serviceType": "Sitio de comercio electrónico"
+                        }
+                    }
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Travel Club Agencia de Viajes",
+                    "logo": "https://res.cloudinary.com/dn1rw9lju/image/upload/v1568387757/logo_tc_agencia_yjsced.svg",
+                    "URL": "https://viajes.travel.cl",
+                    "description": "La agencia de viajes que hace el destino de tus sueños una realidad. Canjea tus Dólares-Premio por una escapada a las playas de arena blanca en Punta Cana o Bayahibe, aventuras inolvidables en Orlando, la antigua Roma o la milenaria China. Conoce nuestros destinos visitando las sucursales Travel Club de Santiago o en nuestra red de agencias asociadas a lo largo de todo Chile.",
+                    "makesOffer": {
+                        "itemOffered": {
+                            "@type": "Service",
+                            "serviceType": "Agencia de viajes"
+                        }
+                    }
+                }
+            ]
+        }
+    </script>
+    <!--    Styles -->
+    <link href="./css/owl.carousel.min.css" rel="stylesheet">
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="./css/mdb.css" rel="stylesheet">
+    <link href="./css/datatables.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/resp.css" rel="stylesheet">
+    <style type="text/css">/* Chart.js */
+    @-webkit-keyframes chartjs-render-animation {
+        from {
+            opacity: 0.99
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes chartjs-render-animation {
+        from {
+            opacity: 0.99
+        }
+        to {
+            opacity: 1
+        }
+    }
+
+    .chartjs-render-monitor {
+        -webkit-animation: chartjs-render-animation 0.001s;
+        animation: chartjs-render-animation 0.001s;
+    }
+    </style>
+</head>
+
+<body class="animated fadeIn slow">
+<!--Main Navigation-->
+<header>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar nav-travel navbar-expand-lg scrolling-navbar">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand navbar-travel waves-effect" href="https://vault-ebusiness.herokuapp.com/"
+               target="_blank">
+                <img class="img-fluid" src="./img/TravelBCH.svg">
+            </a>
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fal fa-bars"></i>
+                    </span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse ml-lg-0 ml-3 " id="navbarSupportedContent">
+                <ul class="navbar-nav flex-lg-row ml-lg-auto nav-bottom ">
+                    <li class="nav-item"></li>
+                    <li class="nav-item ">
+                        <a class="nav-link waves-effect waves-light"
+                           href="https://vault-ebusiness.herokuapp.com/home3/#viajes">
+                            <span class="nav-link-bch">Viajes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item"></li>
+                    <li class="nav-item ">
+                        <a class="nav-link waves-effect waves-light"
+                           href="https://vault-ebusiness.herokuapp.com/home3/#catalogosDestacados">
+                            <span class="nav-link-bch">Catálogos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item ">
+                        <a class="nav-link waves-effect waves-light"
+                           href="https://vault-ebusiness.herokuapp.com/home3/#panoramas">
+                            <span class="nav-link-bch">Panoramas</span>
+                        </a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item ">
+                        <a class="nav-link waves-effect waves-light"
+                           href="https://vault-ebusiness.herokuapp.com/home3/#beneficios">
+                            <span class="nav-link-bch">Beneficios</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--Main Navigation-->
+<div class="alert alerta alert-warning text-center m-0">
+    <i class="fas fa-exclamation-circle"></i>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua.
+</div>
+
+<!--Main layout-->
+<main>
+    <section id="slider">
+        <div class="container-fluid zonahero">
+            <div class="row slide">
+                <div id="SliderHomeTravel" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#SliderHomeTravel" data-slide-to="0" class="active"></li>
+                        <li data-target="#SliderHomeTravel" data-slide-to="1" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-md-block d-none w-100" src="./img/cines1.jpg" alt="&lt;!--nombre de campaña--&gt;"/>
+                            <img class="d-sm-none w-100" src="./img/cinesm.jpg" alt="&lt;!--nombre de campaña--&gt;"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-md-block d-none w-100" src="./img/alonso1.jpg" alt=""/>
+                            <img class="d-sm-none w-100" src="./img/alonsoM.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" data-target="#SliderHomeTravel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" data-target="#SliderHomeTravel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contador row">
+                <div class="col-md-3 ml-auto">
+                    <div class="centrador">
+                        <img class="img-fluid" src="./img/800x150" />
+                    </div>
+                </div>
+                <div class="col-md-5 counter ">
+                    <ul class="p-0 col-12 centrador m-1">
+                        <li><span id="days">-29</span>dias</li>
+                        <li><span id="hours">-11</span>horas</li>
+                        <li><span id="minutes">-54</span>Minutos</li>
+                        <li><span id="seconds">-27</span>Segundos</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mr-auto texto">
+                    <div class="centrador">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin zonahero -->
+    </section>
+
+    <div class="container-fluid zonaprograma">
+        <section id="ProgramaTravel">
+            <div class="row programaTravel">
+                <div id="SliderPrograma">
+                    <div class="botones">
+                        <button class="ml-xl-auto" data-toggle="collapse" data-target="#preg1" role="button" aria-expanded="true" aria-controls="preg1">
+                            ¿Qué es el Programa Travel?
+                        </button>
+                        <button class="collapsed" data-toggle="collapse" data-target="#preg2" role="button" aria-expanded="false" aria-controls="preg2">
+                            ¿Que son los Dólares-Premio?
+                        </button>
+                        <button class="mr-xl-auto collapsed" data-toggle="collapse" data-target="#preg3" role="button" aria-expanded="false" aria-controls="preg3">
+                            ¿Donde y como Canjear?
+                        </button>
+                    </div>
+
+                    <div id="cont-preg" class="text-center m-auto col-xl-12 col-12">
+                        <div data-parent="#SliderPrograma" class="collapse show col-12" id="preg1">
+                            <div class="contenidoPrograma cnt1">
+                                <h2 class="display-5">¿Qué es el Programa Travel?</h2>
+                                <p>
+                                    Es el programa donde <strong>el Banco de Chile premia la fidelidad y lealtad de sus
+                                    clientes</strong>, entregándoles a sus socios la posibilidad de <strong>acumular
+                                    Dólares-Premio</strong> para ser canjeados por <strong>viajes, descuentos y
+                                    beneficios</strong>.
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-xl-2 col-3 ml-xl-auto  text-center box">
+                                        <i class="fas fa-plane"></i>
+                                        <h5>Viajes</h5>
+                                    </div>
+
+                                    <div class="col-xl-2 col-3   text-center box">
+                                        <i class="fas fa-gift"></i>
+                                        <h5>Catalogo</h5>
+                                    </div>
+
+                                    <div class="col-xl-2 col-3   text-center box">
+                                        <i class="fas fa-tags"></i>
+                                        <h5>Descuentos</h5>
+                                    </div>
+
+                                    <div class="col-xl-2 col-3   text-center box mr-xl-auto">
+                                        <i class="far fa-ticket-alt"></i>
+                                        <h5>Panoramas</h5>
+                                    </div>
+                                </div>
+                                <button class="m-auto btn btn-primary waves-effect waves-light" href="#">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+
+                        <div data-parent="#SliderPrograma" class="collapse col-12" id="preg2">
+                            <div class="contenidoPrograma cnt2">
+                                <h2 class="display-5">¿Que son los Dólares-Premio?</h2>
+                                <p>
+                                    Dólares-Premio es <strong>la moneda del Programa Travel</strong>, cada Dólar-Premio
+                                    <strong>equivale a un dólar estadounidense real</strong>, y se acumulan <strong> al
+                                    utilizar su Tarjeta de Crédito en compras nacionales e internacionales</strong>
+                                </p>
+
+                                <p class="USDDP"><strong>100USD = 1DP</strong></p>
+                                <button class="m-auto btn btn-primary waves-effect waves-light" href="#">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+
+                        <div data-parent="#SliderPrograma" class="collapse col-12" id="preg3">
+                            <div class="contenidoPrograma cnt3">
+                                <h2 class="display-5"> ¿Donde y como Canjear?</h2>
+                                <div class="row">
+                                    <div class="col-md-3 col-3 text-center box">
+                                        <i class="fas fa-5x fa-credit-card"></i>
+                                        <h4>Unete</h4>
+                                    </div>
+                                    <div class="col-md-3 col-3 text-center box">
+                                        <i class="fas fa-5x fa-cart-plus"></i>
+                                        <h4>Canjea</h4>
+                                    </div>
+                                    <div class="col-md-3 col-3 text-center box">
+                                        <i class="fas fa-5x fa-users"></i>
+                                        <h4>Lorem ipsum</h4>
+                                    </div>
+                                    <div class="col-md-3 col-3 text-center box">
+                                        <i class="fab fa-5x fa-cc-visa"></i>
+                                        <h4>TC</h4>
+                                    </div>
+                                </div>
+                                <button class="m-auto btn btn-primary waves-effect waves-light" href="#">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin row -->
+        </section>
+
+        <section id="viajes">
+            <div class="container-fluid">
+                <div class="row titulo-negocio">
+                    <div class="col">
+                        <hr class="separador centrador">
+                    </div>
+                    <div class="col-auto">Viajes</div>
+                    <div class="col">
+                        <hr class="separador centrador">
+                    </div>
+                </div>
+
+                <ul class="botonera-viajes d-inline-flex p-0 flex-xl-row flex-column justify-content-left ">
+                    <li class="d-flex">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank">
+                            <img src="./img/logo-travel.svg">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 productos-viajes">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item waves-effect waves-light">
+                                <a class="nav-link active" id="vuelos-tab" data-toggle="tab" href="https://vault-ebusiness.herokuapp.com/home3/#vuelos" role="tab" aria-controls="Vuelos" aria-selected="true">
+                                    <img src="./img/vuelos.svg">
+                                </a>
+                            </li>
+                            <li class="nav-item waves-effect waves-light">
+                                <a class="nav-link" id="hoteles-tab" data-toggle="tab" href="https://vault-ebusiness.herokuapp.com/home3/#hoteles" role="tab" aria-controls="hoteles" aria-selected="false">
+                                    <img src="./img/hoteles.svg">
+                                </a>
+                            </li>
+                            <li class="nav-item waves-effect waves-light">
+                                <a class="nav-link" id="paquetes-tab" data-toggle="tab" href="https://vault-ebusiness.herokuapp.com/home3/#paquetes" role="tab" aria-controls="paquetes" aria-selected="false">
+                                    <img src="./img/paquetes.svg">
+                                </a>
+                            </li>
+                            <li class="nav-item waves-effect waves-light">
+                                <a class="nav-link" id="cruceros-tab" data-toggle="tab" href="https://vault-ebusiness.herokuapp.com/home3/#cruceros" role="tab" aria-controls="cruceros" aria-selected="false">
+                                    <img src="./img/cruceros.svg">
+                                </a>
+                            </li>
+                            <li class="nav-item waves-effect waves-light">
+                                <a class="nav-link" id="asistencia-tab" data-toggle="tab" href="https://vault-ebusiness.herokuapp.com/home3/#asistencia" role="tab" aria-controls="asistencia" aria-selected="false">
+                                    <img src="./img/asistencia.svg">
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="vuelos" role="tabpanel" aria-labelledby="vuelos-tab">
+                                <div class="cajavuelos">
+                                    <div class="row">
+                                        <h4 class="col-lg-6">Busca vuelos</h4>
+                                        <div class="col-lg-6">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                                <label class="form-check-label" for="inlineRadio1">Solo Ida</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked="">
+                                                <label class="form-check-label" for="inlineRadio2">Ida y Vuelta</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-6">
+                                            <div class="form-label-group">
+                                                <label>Ida</label>
+                                                <input type="text" id="" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-6">
+                                            <div class="form-label-group">
+                                                <label>Vuelta</label>
+                                                <input type="text" id="" class="form-control" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-6 ">
+                                            <div class="form-label-group">
+                                                <label>Salida</label>
+                                                <input type="text" id="" class="form-control" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-6">
+                                            <div class="form-label-group">
+                                                <label>Regreso</label>
+                                                <input type="text" id="" class="form-control" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-2 col-4">
+                                            <div class="form-label-group">
+                                                <label>Adultos</label>
+                                                <select data-placement="top" data-toggle="popover" data-trigger="focus" title="" data-content="12 ó + años" class="form-control selector" id="selector1" data-original-title="Adultos">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-2 col-4">
+                                            <div class="form-label-group">
+                                                <label>Niños</label>
+                                                <select data-placement="top" data-toggle="popover" data-trigger="focus" title="" data-content="2 a 11 años" class="form-control selector" id="selector1" data-original-title="Niños">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-2 col-4">
+                                            <div class="form-label-group">
+                                                <label>Infantes</label>
+                                                <select data-placement="top" data-toggle="popover" data-trigger="focus" title="" data-content="0 a 23 meses, en brazos" class="form-control selector" id="selector1" data-original-title="Infantes">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="form-label-group">
+                                                <label>Cabina</label>
+                                                <select class="form-control selector" id="selector1">
+                                                    <option>Económica</option>
+                                                    <option>Premium</option>
+                                                    <option>Business</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <button type="submit" class="btn btn-primary btn-block waves-effect waves-light">
+                                                Buscar
+                                            </button>
+                                        </div>
+                                    </div><!-- fin ROW -->
+                                </div><!-- fin cajavuelos-->
+                            </div>
+
+                            <div class="tab-pane" id="hoteles" role="tabpanel" aria-labelledby="hoteles-tab">
+                                <div class="contenido">
+                                    <h4>Hoteles</h4>
+                                    <p>Encuentra las mejores opciones de Hoteles, en Chile y el mundo.</p>
+                                    <a class="btn btn-primary waves-effect waves-light">Ver Hoteles Online</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="paquetes" role="tabpanel" aria-labelledby="paquetes-tab">
+                                <div class="contenido">
+                                    <h4>Paquetes</h4>
+                                    <p>Encuentra las mejores opciones de paquetes, en Chile y el mundo.</p>
+                                    <a class="btn btn-primary waves-effect waves-light">Ver Paquetes</a>
+                                    <a class="btn btn-primary waves-effect waves-light">Ver Paquetes en linea</a>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="cruceros" role="tabpanel" aria-labelledby="cruceros-tab">
+                                <div class="contenido">
+                                    <h4>Cruceros</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    </p>
+                                    <a class="btn btn-primary waves-effect waves-light">Ver Oferta de Cruceros</a>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="asistencia" role="tabpanel" aria-labelledby="cruceros-tab">
+                                <div class="contenido">
+                                    <h4>Asistencia</h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    </p>
+                                    <a class="btn btn-primary waves-effect waves-light">Ver Asistencia en linea</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="owl-carousel owl-dots p-0 owl-theme col-md-6 col-12 owl-loaded owl-drag" id="SliderViajes">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-1341px, 0px, 0px); transition: all 0s ease 0s; width: 4023px;">
+                                <div class="owl-item cloned" style="width: 660.5px; margin-right: 10px;">
+                                    <div class="item naipe">
+                                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                                            <img class="img-fluid" src="./img/rio.jpg" />
+                                            <div class="caption-destacado">
+                                                <span class="action precio"><em>USD929</em><b>$666.093</b></span>
+                                                <div class="centrador">
+                                                    <span class="intro">
+                                                        Especial caribe
+                                                    </span><!-- maximo 20 caracteres OPCIONAL-->
+                                                    <h3 class="texto-accion">
+                                                        Vive Punta Cana
+                                                    </h3><!-- maximo 25 caracteres Obligatorio-->
+                                                    <p class="bajada">
+                                                       hasta <strong>50% dcto</strong> <!-- maximo 90 caracteres OPCIONAL-->
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item cloned" style="width: 660.5px; margin-right: 10px;">
+                                    <div class="item naipe">
+                                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                                            <img class="img-fluid" src="./img/rio2.jpg">
+                                            <div class="caption-destacado izquierda">
+                                                <div class="centrador">
+                                                    <span class="intro">
+                                                        Especial del mes
+                                                    </span><!-- maximo 20 caracteres OPCIONAL-->
+                                                    <h3 class="texto-accion">
+                                                        Rio de Janeiro
+                                                    </h3><!-- maximo 25 caracteres Obligatorio-->
+                                                    <p class="bajada">
+                                                        Todo desde<strong>$150.000</strong>  <!-- maximo 90 caracteres OPCIONAL-->
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!--<div class="owl-item active" style="width: 660.5px; margin-right: 10px;">
+                                    <div class="item naipe">
+                                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                                            <img class="img-fluid" src="./img/rio.jpg">
+                                            <div class="caption-destacado">
+                                                <span class="action precio">
+                                                    <em>USD929</em><b>$666.093</b>
+                                                </span>
+                                                <div class="centrador">
+                                                    <span class="intro">
+                                                        Especial caribe
+                                                    </span>&lt;!&ndash; maximo 20 caracteres OPCIONAL&ndash;&gt;
+                                                    <h3 class="texto-accion">
+                                                        Vive Punta Cana
+                                                    </h3> &lt;!&ndash; maximo 25 caracteres Obligatorio&ndash;&gt;
+                                                    <p class="bajada">
+                                                        hasta <strong>50% dcto</strong>
+                                                    </p>&lt;!&ndash; maximo 90 caracteres OPCIONAL&ndash;&gt;
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>-->
+
+                                <!--<div class="owl-item" style="width: 660.5px; margin-right: 10px;">
+                                    <div class="item naipe">
+                                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                                            <img class="img-fluid" src="./img/rio2.jpg">
+                                            <div class="caption-destacado izquierda">
+                                                <div class="centrador">
+                                                    <span class="intro">
+                                                        Especial del mes
+                                                    </span>&lt;!&ndash; maximo 20 caracteres OPCIONAL&ndash;&gt;
+                                                    <h3 class="texto-accion">
+                                                        Rio de Janeiro
+                                                    </h3> &lt;!&ndash; maximo 25 caracteres Obligatorio&ndash;&gt;
+                                                    <p class="bajada">
+                                                        Todo desde <strong>$150.000</strong>
+                                                    </p>&lt;!&ndash; maximo 90 caracteres OPCIONAL&ndash;&gt;
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item cloned" style="width: 660.5px; margin-right: 10px;">
+                                    <div class="item naipe">
+                                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                                            <img class="img-fluid" src="./img/rio.jpg">
+                                            <div class="caption-destacado">
+                                                <span class="action precio">
+                                                    <em>USD929</em><b>$666.093</b>
+                                                </span>
+                                                <div class="centrador">
+                                                    <span class="intro">
+                                                        Especial caribe
+                                                    </span>&lt;!&ndash; maximo 20 caracteres OPCIONAL&ndash;&gt;
+                                                    <h3 class="texto-accion">
+                                                        Vive Punta Cana
+                                                    </h3> &lt;!&ndash; maximo 25 caracteres Obligatorio&ndash;&gt;
+                                                    <p class="bajada">
+                                                        hasta <strong>50% dcto</strong>
+                                                    </p>&lt;!&ndash; maximo 90 caracteres OPCIONAL&ndash;&gt;
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>-->
+
+                            <!--    <div class="owl-item cloned" style="width: 660.5px; margin-right: 10px;">
+                                    <div class="item naipe">
+                                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                                            <img class="img-fluid" src="./img/rio2.jpg">
+                                            <div class="caption-destacado izquierda">
+                                                <div class="centrador">
+                                                    <span class="intro">
+                                                        Especial del mes
+                                                    </span>&lt;!&ndash; maximo 20 caracteres OPCIONAL&ndash;&gt;
+                                                    <h3 class="texto-accion">
+                                                        Rio de Janeiro
+                                                    </h3> &lt;!&ndash; maximo 25 caracteres Obligatorio&ndash;&gt;
+                                                    <p class="bajada">
+                                                        Todo desde <strong>$150.000</strong>
+                                                    </p>&lt;!&ndash; maximo 90 caracteres OPCIONAL&ndash;&gt;
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+
+                        <div class="owl-nav disabled">
+                            <button type="button" role="presentation" class="owl-prev"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" role="presentation" class="owl-next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                       <!-- <div class="owl-dots">
+                            <button role="button" class="owl-dot active"><span></span></button>
+                            <button role="button" class="owl-dot"><span></span></button>
+                        </div>-->
+                    </div>
+                    <button data-brackets-id="61816" class="btn ml-auto btn-sucess btn-vermas  waves-effect waves-light">Ir a TravelClub</button>
+                </div><!-- fin row -->
+            </div>
+        </section>
+
+        <section id="alianzas">
+            <div class="row alianzas fadeIn wow animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="row col-12 titulo-negocio">
+                    <div class="col">
+                        <hr class="separador centrador" />
+                    </div>
+                    <div class="col-auto">Alianzas</div>
+                    <div class="col">
+                        <hr class="separador centrador">
+                    </div>
+                </div>
+                <div class="col-2 box sky ml-xl-auto">
+                    <img src="./img/aerosky.svg" class="img-fluid" />
+                    <span>
+                        <p>Viaja a todo Chile y Sudamerica con Travel Sky</p>
+                         <a class="m-auto btn btn-primary waves-effect waves-light" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                             <i class="fal fa-2x fa-plus-circle"></i>
+                         </a>
+                    </span>
+                </div>
+                <div class="col-2 box delta ">
+                    <img src="./img/aerodelta.svg" class="img-fluid">
+                    <span>
+                        <p>Viaja a Estados Unidos junto con Travel Delta</p>
+                        <a class="m-auto btn btn-primary waves-effect waves-light" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <i class="fal fa-2x fa-plus-circle"></i>
+                        </a>
+                    </span>
+                </div>
+
+                <div class="col-2 box iberia">
+                    <img src="./img/aeroiberia.svg" class="img-fluid">
+                    <span>
+                        <p>Más cerca de Europa con Travel Iberia</p>
+                        <a class="m-auto btn btn-primary waves-effect waves-light" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <i class="fal fa-2x fa-plus-circle"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-2 box british">
+                    <img src="./img/aerobritish.svg" class="img-fluid" />
+                    <span>
+                        <p>Viaja al viejo continente con Travel British Airways</p>
+                         <a class="m-auto btn btn-primary waves-effect waves-light" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                             <i class="fal fa-2x fa-plus-circle"></i>
+                         </a>
+                    </span>
+                </div>
+
+                <div class="col-2 box gol mr-xl-auto">
+                    <img src="./img/aerogol.svg" class="img-fluid" />
+                    <span>
+                        <p>Con Travel Gol más chilenos a Brasil</p>
+                        <a class="m-auto btn btn-primary waves-effect waves-light" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <i class="fal fa-2x fa-plus-circle"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- fin row alianzas -->
+
+        <section id="catalogosDestacados">
+            <div class="row catalogos fadeIn wow animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="row titulo-negocio">
+                    <div class="col"><hr class="separador centrador"></div>
+                    <div class="col-auto">Catálogos</div>
+                    <div class="col"><hr class="separador centrador"></div>
+                </div>
+                <div class="row contcata col-xl-6 col-12">
+                    <ul class="botonera-catalogos d-inline-flex p-0 flex-row w-100 justify-content-left ">
+                        <li class="d-flex mr-1">
+                            <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank">
+                                <img src="./img/logotienda.svg">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- cards -->
+                    <div class="naipe col-xl-8 dest2 col-12">
+                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <img class="img-fluid" src="./img/irobot.jpg">
+                            <div class="caption-destacado">
+                                <span class="action precio">
+                                    <img src="./img/logotienda.svg">
+                                </span>
+                                <div class="centrador">
+                                    <span class="intro">Especial Aspiradoras</span><!-- maximo 20 caracteres OPCIONAL-->
+                                    <h3 class="texto-accion">iRobot</h3><!-- maximo 25 caracteres Obligatorio-->
+                                    <p class="bajada">hasta <strong>50% dcto</strong></p><!-- maximo 90 caracteres OPCIONAL-->
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 dest1 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/asadot1.jpg">
+                            <div class="caption-destacado">
+                                <span class="action precio">
+                                    <img src="./img/logotienda.svg">
+                                </span>
+                                <span class="intro">Catálogo Fiestas Patrias</span>
+                                <h3 class="texto-accion">18 en llamas</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <button data-brackets-id="8397" class="btn ml-auto btn-sucess btn-vermas  waves-effect waves-light">
+                        Ir a Travel Tienda
+                    </button>
+                </div>
+
+                <div class="row contcata col-xl-6 col-12">
+                    <ul class="botonera-catalogos d-inline-flex p-0 flex-row w-100 justify-content-left ">
+                        <li class="d-flex ml-1">
+                            <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank">
+                                <img src="./img/logoduty.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="naipe dest1 col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile duty">
+                            <img src="./img/vinos.jpg" class="img-fluid">
+                            <div class="caption-destacado">
+                                <span class="action precio">
+                                    <img src="./img/logoduty.svg">
+                                </span>
+                                <span class="intro">Especial</span>
+                                <h3 class="texto-accion">Vinos</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe dest2 col-xl-8 col-12">
+                        <a class="tile tile2 duty" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <img class="img-fluid" src="./img/electrodomesticos.jpg">
+                            <div class="caption-destacado">
+                            <span class="action precio">
+                                <img src="./img/logoduty.svg">
+                            </span>
+                                <div class="centrador">
+                                    <span class="intro">Especial del mes</span><!-- maximo 20 caracteres OPCIONAL-->
+                                    <h3 class="texto-accion">Electro domesticos</h3> <!-- maximo 25 caracteres Obligatorio-->
+                                    <p class="bajada">Todo con hasta <strong>50% dcto</strong></p><!-- maximo 90 caracteres OPCIONAL-->
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <button data-brackets-id="8397" class="btn ml-auto btn-sucess btn-vermas  waves-effect waves-light">
+                        Ir a Travel Duty
+                    </button>
+                </div>
+
+                <div class="row botcat col-12 catecatalogos">
+                    <div class="naipe col-6 col-xl-2">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/tecno1.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Tecnología</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-6 col-xl-2">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/lineablanca.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Línea Blanca</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-6 col-xl-2">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/home.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Hogar</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe duty col-6 col-xl-2">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/electrohogar.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Electro Hogar</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe duty col-6 col-xl-2">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/belleza2.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Belleza y Regalos</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe duty col-6 col-xl-2">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/outdoors.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Tiempo Libre</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- fin row catalogos -->
+        </section>
+
+        <section id="panoramas">
+            <div class="row panoramas fadeIn wow animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="row titulo-negocio">
+                    <div class="col"><hr class="separador centrador"></div>
+                    <div class="col-auto">Panoramas</div>
+                    <div class="col"><hr class="separador centrador"></div>
+                </div>
+                <div class="col-12 logo-container">
+                    <h5><i class="fas fa-ticket-alt"></i> Música y Espectaculos</h5>
+                </div>
+                <div class="row espectaculos">
+                    <!-- cards -->
+                    <div class="naipe col-xl-4 col-md-12">
+                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <img class="img-fluid" src="./img/cines.jpg">
+                            <div class="caption-destacado">
+                                <span class="intro">Tickets para diferentes cines</span><!-- maximo 20 caracteres OPCIONAL-->
+                                <h3 class="texto-accion">Cines</h3><!-- maximo 25 caracteres Obligatorio-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="naipe col-xl-2 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/monlaferte.jpg">
+                            <div class="caption-destacado">
+                                <span class="intro">La Gira de Norma</span>
+                                <h3 class="texto-accion">Mon La Ferte</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="naipe col-xl-2 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile duty">
+                            <img src="./img/calamaro.jpg" class="img-fluid">
+                            <div class="caption-destacado">
+                                <span class="intro">Santiago y Concepción</span>
+                                <h3 class="texto-accion">Andrés Calamaro</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="naipe col-xl-4 col-md-12">
+                        <a class="tile tile2 duty" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <img class="img-fluid" src="./img/weezer.jpg">
+                            <div class="caption-destacado">
+                                <span class="intro">Martes 24 de septiembre 2019 Movistar Arena</span><!-- maximo 20 caracteres OPCIONAL-->
+                                <h3 class="texto-accion">Weezer</h3><!-- maximo 25 caracteres Obligatorio-->
+                            </div>
+                        </a>
+                    </div>
+                    <button class="btn ml-auto btn-sucess btn-vermas  waves-effect waves-light">Ver todos</button>
+                </div><!-- Fin row espectaculos -->
+
+                <div class="col-12 logo-container">
+                    <!--img class="col-sm-2 logo-neg" src="img/svg/logotienda.svg" /-->
+                    <h5><i class="fas fa-utensils-alt"></i> Restaurantes</h5>
+                </div>
+
+                <!-- cards -->
+                <div class="row restaurantes">
+                    <div class="naipe D40 col-xl-4 col-md-12">
+                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <img class="img-fluid" src="./img/rest5.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">
+                                    <span class="">
+                                        <h4>Miercoles</h4>
+                                        <img src="./img/Ambrosia.jpg">
+                                        <p><strong>40% de Dcto. con tus Tarjetas Visa</strong> en restaurantes de Santiago y regiones</p>
+                                    </span> <!-- maximo 25 caracteres Obligatorio-->
+                                </h3> <!-- maximo 20 caracteres OPCIONAL-->
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 col-md-12">
+                        <a class="tile tile2" href="https://vault-ebusiness.herokuapp.com/home3/#">
+                            <img class="img-fluid" src="./img/rest2.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">
+                                    <span class="centrador">Canjes<br><strong>Dólares<br>Premio</strong></span><!-- maximo 25 caracteres Obligatorio-->
+                                </h3><!-- maximo 20 caracteres OPCIONAL-->
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-2 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile2 tile">
+                            <img class="img-fluid" src="./img/rest4.jpg">
+                            <span class="eyecatcher">Hoy 100% de cambio</span>
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion"><span class="centrador">Canjes<br><strong>Dólares<br>Premio</strong></span></h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe restdest col-xl-2 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile2 tile">
+                            <img class="img-fluid" src="./img/osaka.jpg">
+                            <span class="eyecatcher destacado">Destacado de la semana</span>
+                            <div class="caption-destacado"></div>
+                        </a>
+                    </div>
+                    <button class="btn ml-auto btn-sucess btn-vermas  waves-effect waves-light">Ver todos</button>
+                </div><!-- Fin Row Restaurantes -->
+            </div><!-- fin row panoramas -->
+        </section>
+
+        <section id="beneficios">
+            <div class="row beneficios fadeIn wow animated" style="visibility: visible; animation-name: fadeIn;">
+                <div class="row titulo-negocio">
+                    <div class="col"><hr class="separador centrador"></div>
+                    <div class="col-auto">Beneficios</div>
+                    <div class="col"><hr class="separador centrador"></div>
+                </div>
+                <div class="col-12 logo-container">
+                    <h5>Lorem Ipsum et ursala</h5>
+                </div>
+
+                <!-- cards -->
+                <div class="row col-12 col-xl-8 cards-bene">
+                    <div class="naipe col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/box.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Travel Box</h3>
+                                <p class="bajada"><strong>Lorem Ipsum</strong></p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/vestuario.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Vestuario</h3>
+                                <p class="bajada"><strong>Lorem Ipsum</strong></p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/servicios.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Servicios</h3>
+                                <p class="bajada">Lorem Ipsum</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/salud.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Salud</h3>
+                                <p class="bajada"><strong>Lorem Ipsum</strong></p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/belleza.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Belleza</h3>
+                                <p class="bajada"><strong>Lorem Ipsum</strong></p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="naipe col-xl-4 col-6">
+                        <a href="https://vault-ebusiness.herokuapp.com/home3/#" class="tile1 tile">
+                            <img class="img-fluid" src="./img/cuotas.jpg">
+                            <div class="caption-destacado">
+                                <h3 class="texto-accion">Cuotas sin interes</h3>
+                                <p class="bajada"><strong>Lorem Ipsum</strong></p>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="btn ml-auto btn-sucess btn-vermas  waves-effect waves-light">Ver todos</button>
+                </div>
+
+                <div class="owl-carousel owl-dots p-0 owl-theme col-md-4 col-12 owl-loaded" id="SliderBene">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 456px;">
+                            <div class="owl-item active" style="width: 450.328px; margin-right: 5px;">
+                                <div class="item imagen">
+                                    <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank">
+                                        <img src="./img/starbucks.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav disabled">
+                        <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
+                        <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+                    </div>
+                    <div class="owl-dots disabled">
+                        <button role="button" class="owl-dot active"><span></span></button>
+                    </div>
+                </div>
+            </div><!-- fin beneficios -->
+        </section>
+    </div>
+</main>
+<!--/ Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+    <hr class="my-4">
+    <!-- Social icons -->
+    <div class="RSS pb-4">
+        <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank"><i class="fab fa-facebook-f mr-3"></i></a>
+        <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank"><i class="fab fa-twitter mr-3"></i></a>
+        <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank"><i class="fab fa-youtube mr-3"></i></a>
+        <a href="https://vault-ebusiness.herokuapp.com/home3/#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <!-- Social icons -->
+
+    <div class="row m-auto">
+        <div class="col-lg-3 ml-xl-auto">
+            <h5>Programa Travel</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Tienda</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Duty</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Viajes</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Beneficios</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Travel Box</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3">
+            <h5>Conócenos</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Conoce tu programas</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Reglamento del programa</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Trabaja con nosotros</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 mr-xl-auto">
+            <h5>Servicio al cliente</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Terminos y condiciones</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Método y costo de envíos</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Red de atención</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Preguntas frecuentes</a></li>
+                <li class="list-group-item"><a href="https://vault-ebusiness.herokuapp.com/home3/#">Ganadores sorteos</a></li>
+            </ul>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+        ©2020 Copyright:
+        <a href="https://vault-ebusiness.herokuapp.com/home3/www.travel.cl" target="_blank">Travel</a>
+    </div>
+    <!--/.Copyright-->
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="./js/hammer.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="./js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="./js/mdb.min.js"></script><div class="hiddendiv common"></div>
+<!-- Initializations -->
+<script type="text/javascript" src="./js/home2.js"></script>
+<script type="text/javascript" src="./js/owl.carousel.js"></script>
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("#navbar .nav-item .nav-link").on('click', function(event) {
+            console.log(this)
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+                // Store hash
+                var hash = this.hash;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+</body>
+
+</html>

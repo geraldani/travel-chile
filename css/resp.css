@@ -1,0 +1,221 @@
+@media (max-width: 575.98px) { 
+
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    
+    
+}
+
+
+@media (max-width: 991.98px) { 
+    html body header .nav-travel.navbar {
+        padding:5px;
+    }
+    .navbar-collapse ul {
+        width:100%;
+        display:block;
+        float:left;
+        
+    }
+    html body header .navbar-collapse ul li {
+        width:50%;
+        margin:0;
+        display:inline-block;
+            float: left;
+    }
+    .navbar-collapse .nav-bottom {
+      padding:10px 0:
+    }
+    html body #navbarSupportedContent .botoneraBCH .nav-link {
+       border:0;
+        font-size:0.8em;
+        padding:1em 0;
+    }
+    .navbar-toggler .navbar-toggler-icon i {
+        color:#fff;
+        padding:10px;
+        background:#00bcd4;
+        border-radius: 50%;
+        margin:-5px 0;
+    }
+    .navbar-toggler.collapsed .navbar-toggler-icon i {
+        background:gray;
+    }
+    #navbarSupportedContent .nav-top:after {
+        transform:none;
+    }
+    #navbarSupportedContent:after {
+        transform:none;
+        border-width: 0 1px 0px;
+        transition:all ease 0.5s;
+    }
+    html body #SliderPrograma {
+        height:auto;
+    }
+    #SliderPrograma .botones {
+        position: static;
+        width: 100%;
+        flex-direction: column;
+    }
+    #SliderPrograma .botones button {
+        width:100%;
+        text-align:center;
+        font-size:0.8em;
+        display:block;
+    }
+    #SliderPrograma .botones button.collapsed {
+        font-size:0.8em;       
+        padding:5px;
+        display:block;
+        float:none;
+        border:0;
+        min-width:99%;
+        width:auto;
+        margin:3px 0;
+        text-indent: inherit;
+        text-align: center;
+        clear:both;
+    } 
+
+    #SliderPrograma .contenidoPrograma {
+        width:100%
+    }
+    .viajes .nav-tabs .nav-item {
+        width:100%;
+    }
+    .viajes .nav-tabs .nav-link {
+        text-align: center;
+        width:100%;
+        padding:9px
+    }
+    .viajes .tab-pane {
+        width:100%;
+        padding:0;
+    }
+   html body .viajes .nav-tabs .nav-link.active {
+        background: #ddd!important;
+    }
+    html body .viajes .nav-tabs .nav-link.active:after {
+        left:auto;
+        right:5%;
+        bottom:9%;
+    }
+
+
+    #SliderPrograma  .box h5 {
+        font-size:1em;
+    
+    }
+    .viajes .viajes-box {
+        display:none;
+    }
+    #viajes .botonera-viajes li a {
+        margin:0 auto;
+    }
+    #viajes .botonera-viajes li {
+        width:100%;
+        text-align: center;
+    }
+ 
+    #carouselviajes1 .carousel-inner .carousel-item a {
+        background-clip:border-box;
+        background-size: contain;
+    }
+    
+    html .alianzas {
+        padding-bottom:0
+    }
+    html .alianzas .titulo-negocio {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    html .alianzas .titulo-negocio .col {
+        display:none;
+    }
+    html .alianzas div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height:auto;
+    }
+    .alianzas span .btn {
+        width:90%
+    }
+    html body main .alianzas > div img {
+        width: 40%;
+    }
+    html .alianzas .british img, 
+    html .alianzas .iberia img, 
+    html .alianzas .delta img {
+        width:45%;
+        margin:1em auto;
+    }
+    .alianzas .sky img,
+    .alianzas .gol img {
+    width: 25%;
+        margin:1em auto;
+    }
+    html body main .alianzas:before {
+    font-size: 1em;
+    left: 50%;
+    top: 4px;
+    margin-left: -2.2em;
+    }
+   
+    .logo-container {
+        padding:2%;
+    }    
+    #catalogosDestacados .catalogos .contcata .dest1 {
+       display:none;
+    }
+    .panoramas .espectaculos .tile .caption-destacado .texto-accion{
+        font-size: 1.3em;
+    }
+    #viajes .owl-stage .tile2 .caption-destacado .intro {
+        font-size:1em
+    }
+    #viajes .owl-stage .tile2 .caption-destacado .texto-accion {
+        font-size:1.5em;
+    }
+    #viajes .owl-stage .tile2 .caption-destacado .bajada {
+        font-size:0.8em
+    }
+    #viajes .owl-stage .tile2 .caption-destacado .precio * {
+        font-size:0.8em;
+    }
+    #navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+    main {
+        padding-top:50px
+    }
+    .zonaprograma section {
+        margin-top:15px        
+    }
+    #SliderBene {
+        margin:0px;
+    }
+    .alianzas span .btn {
+        bottom:auto;
+        top:25%;
+        width:auto;
+        right:0;
+    }
+    .beneficios .tile .caption-destacado .texto-accion {
+        font-size:1.2em
+    }
+}
+
+
+@media (max-width: 1199.98px) { 
+    
+
+    
+}

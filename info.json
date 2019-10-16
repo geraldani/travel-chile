@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "http://www.travel.cl",
+  "name": "TravelClub, Programa de lealtad del Banco de Chile",
+  "address": "Apoquindo 555, Piso 4, Las Condes, Santiago, Chile",
+  "legalName": "Comercial Promociones y Turismo S.A.",
+  "logo": "",
+  "memberOf": {
+    "@type": "ProgramMembership",
+    "hostingOrganization": {
+      "@type": "Organization",
+      "url": "http://www.bancodechile.cl",
+      "name": "Banco de Chile",
+      "address": "Apoquindo 555, Piso 4, Las Condes, Santiago, Chile"
+    },
+    "ProgramName": "Programa de beneficios Travel del Banco de Chile"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+56 600 300 9000",
+    "contactType": "Customer Service"
+  },
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "Travel Tienda",
+      "logo": "",
+      "URL": "https://www.travelclub.cl/traveltienda/home.asp",
+      "description": "Tienda virtual donde podrás acceder a productos exclusivos y a excelentes descuentos con cuotas sin interés usando tus Tarjetas de Crédito del Banco de Chile. Todas tus compras acumulan Dólares-Premio y tienen despacho a domicilio en todo Chile continental.",
+      "makesOffer": {
+        "itemOffered": {
+          "@type": "Service",
+          "serviceType": "Sitio de comercio electrónico"
+        }
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Travel Duty",
+      "logo": " ",
+      "description": "Tienda virtual para ahorrar utilizando tus Dólares-Premio en cientos de productos y servicios con despacho a domicilio en todo Chile continental. ",
+      "URL": "https://www.travelclub.cl/tienda/home.asp",
+      "makesOffer": {
+        "itemOffered": {
+          "@type": "Service",
+          "serviceType": "Sitio de comercio electrónico"
+        }
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Travel Club Agencia de Viajes",
+      "logo": "https://res.cloudinary.com/dn1rw9lju/image/upload/v1568387757/logo_tc_agencia_yjsced.svg",
+      "URL": "https://viajes.travel.cl",
+      "description": "La agencia de viajes que hace el destino de tus sueños una realidad. Canjea tus Dólares-Premio por una escapada a las playas de arena blanca en Punta Cana o Bayahibe, aventuras inolvidables en Orlando, la antigua Roma o la milenaria China. Conoce nuestros destinos visitando las sucursales Travel Club de Santiago o en nuestra red de agencias asociadas a lo largo de todo Chile.",
+      "makesOffer": {
+        "itemOffered": {
+          "@type": "Service",
+          "serviceType": "Agencia de viajes"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1766 @@
+ * {
+     color: #333;
+     font-size: 0.97em;
+ }
+
+ header .nav-travel .container {
+     padding: 0
+ }
+
+ html body header .nav-travel.navbar {
+     background: #00418f;
+     padding: 0;
+ }
+html body header .nav-travel li {
+    margin-right:1.2em
+}
+header .nav-travel .container .navbar-brand img {
+     width: 200px;
+}
+header .nav-travel .container .navbar-nav .svg {
+     width: 150px;
+ }
+
+ .zonahero .contador {
+     background-color: gray;
+     color: #333;
+     text-align: center;
+     border: 2px solid #666;
+     border-width: 4px 0
+ }
+
+ .zonahero .contador li {
+     display: inline-block;
+     font-size: 1em;
+     list-style-type: none;
+     padding: 0em 0.6em;
+     text-transform: uppercase;
+     color: #fff;
+     font-weight: bolder;
+ }
+
+ .zonahero .contador li span {
+     display: block;
+     font-size: 2.0rem;
+     font-weight: 100 !important;
+     color: #7ddaff;
+     background: #444;
+     padding: 2px;
+     width: 48px;
+     margin: 0 auto;
+     color: #ffc107;
+ }
+
+ .zonahero .contador .texto .centrador p {
+     color: #fff;
+ }
+
+ #navbarSupportedContent {
+     height: 75px;
+     padding: 0 1em;
+     position: relative;
+     transition:all ease 0.4s;
+ }
+
+ #navbarSupportedContent:after {
+
+     background: #607d8b;
+     border-width: 0px 5px;
+     width: 4%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: -11px;
+     z-index: 2;
+
+ }
+#navbar.fijo #navbarSupportedContent{
+    height:auto;
+}
+
+
+
+
+ html body #navbarSupportedContent .nav-item .nav-link span {
+     color: #fff;
+     font-size: 1.1em;
+     font-weight: lighter
+ }
+
+ #navbarSupportedContent .nav-bottom .nav-item span {
+     font-size: 0.9em;
+ }
+
+ #navbarSupportedContent .nav-bottom .nav-item .nav-link {
+     padding: 0 1.2em 0 0.5em;
+     position: relative;
+}
+#navbarSupportedContent .nav-bottom .nav-item .dropdown-toggle::after {
+     content: '\f107';
+     font-family: Font Awesome\ 5 Pro;
+    border:none;
+    color:#fff;
+    position: absolute;
+    right:0;
+    top:10%;
+}
+ #navbarSupportedContent .botoneraBCH span {
+     text-transform: uppercase;
+     font-size: 0.8em !important;
+ }
+
+ html body #navbarSupportedContent .botoneraBCH .nav-link {
+     padding: 0 1.2em !important;
+     border-right: 0.5px solid #fff;
+
+ }
+html body #navbarSupportedContent .botoneraBCH:last-of-type .nav-link {
+	border:none;
+}
+
+
+ html body #navbarSupportedContent .micuenta i {
+     color: #fff;
+     font-size: 1.1em
+ }
+
+.navbar .dropdown-menu {
+     padding: 0;
+     background: #fff;
+     border-radius: 0;
+     border: 0;
+ }
+
+ .navbar .dropdown-menu a {
+    color: #002566;
+    text-align: center;
+    font-size: 0.9em;
+     border-bottom:1px solid #002566;
+}
+.navbar .dropdown-menu a:last-of-type {
+    border:none;
+}
+.contador img {
+     margin: 5px;
+}
+.centrador {
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+     margin: 0;
+}
+#SliderPrograma {
+     background: #f0f0f0;
+     width:100%;
+ }
+#SliderPrograma .botones {
+     display:flex;
+     flex-direction: row;
+     width:auto;
+     background: #c5c5c5;
+     padding:5px;
+      }
+#SliderPrograma .botones button {
+     opacity: 1;
+     background: #458ebc;
+     font-size: 1.1em;
+     margin:0;
+     color: #fff;
+     font-weight: 100;
+     padding: 6px 35px;
+     text-align: center;
+     border-radius: 0; 
+     border:0;
+     transition: all ease 0.5s;
+     text-indent: 0;
+     display:flex;
+     margin:1px;
+ }
+#SliderPrograma .botones button.collapsed {     
+     background: #002566;
+     font-size: 1.1em;
+     margin:0;
+     color: #fff;
+     font-weight: 100;
+     padding: 6px 35px;
+     text-align: center;
+     border-radius: 0; 
+     border:0;
+     transition: all ease 0.5s;
+     text-indent: 0;
+     display:flex;
+     margin:1px;
+ }
+ #SliderPrograma .carousel-questions li.active:after {
+     border-left: 15px solid #458ebc
+ }
+
+ #SliderPrograma .contenidoPrograma {
+     padding: 1em 0;
+ }
+#SliderPrograma .contenidoPrograma {
+    width:80%;
+    margin:0 auto;
+    
+}
+ #SliderPrograma .contenidoPrograma p {
+     color: #002566;
+     font-size: 1.3em;
+     font-weight: 100;
+ }
+
+ #SliderPrograma .contenidoPrograma p * {
+     color: #002566;
+ }
+
+ #SliderPrograma .contenidoPrograma .display-5 {
+     font-size: 2.7em;
+     color: #002566;
+ }
+
+ #SliderPrograma .contenidoPrograma .box * {
+     color: #002566;
+ }
+
+ #SliderPrograma .contenidoPrograma .box h5 {
+     font-size: 1.3em;
+ }
+
+ #SliderPrograma .contenidoPrograma .box i {
+     border-radius: 50%;
+     padding: 15px;
+     color: gray;
+     font-size: 3em;
+ }
+
+ #SliderPrograma .contenidoPrograma .USDDP {
+     font-style: normal;
+     line-height: normal;
+     font-size: 2em;
+     display: inline-block;
+     padding: 5px 12px
+ }
+
+#SliderPrograma .contenidoPrograma .btn {
+     padding: 9px 35px;
+     font-weight: 100;
+     display: block;
+     border-radius: 0px;
+     background: #002566!important;
+ }
+
+ .viajes {
+     margin: 1em 0;
+ }
+
+ .viajes .container-fluid {
+     padding: 0
+ }
+#viajes .botonera-viajes {
+    width:100%
+    
+    
+    
+}
+#viajes .botonera-viajes p {
+    width:90%;
+    margin:1em 0
+}
+.viajes .nav-tabs {
+     border: 0;
+ }
+
+ .viajes .nav-tabs .nav-link {
+     border-radius: 0;
+     color: #333;
+     letter-spacing: 0.05em;
+     margin-right: 2px;
+     position: relative;
+     padding-bottom: 1em;
+     font-size: 1.1em
+ }
+
+ .viajes .nav-tabs .nav-link.active:after {
+     content: '\f107';
+     font-family: Font Awesome\ 5 Pro;
+     font-weight: 900;
+     position: absolute;
+     bottom: -7px;
+     font-size: 1.5em;
+     color: #2196f3;
+     left: 41.8%;
+ }
+
+ .viajes .nav-tabs .nav-link.active {
+     color: #2196f3;
+     text-transform: uppercase;
+     border: none;
+     background: none !important;
+     border: none;
+     font-weight: bold;
+ }
+
+ .viajes .nav-tabs .nav-link.active i {
+     color: #2196f3;
+ }
+
+ .viajes .tab-pane {
+     padding: 0 2em;
+ }
+
+ .viajes .viajes-box {
+     padding: 0 1px;
+
+ }
+
+ .box-viajes {
+     margin: 1em 0 0;
+ }
+
+ .box-viajes ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%
+ }
+
+ .box-viajes .top .box-head {
+     background: #002566;
+ }
+
+ .box-viajes .box-head h4 {
+     color: #fff;
+     text-align: center;
+     font-size: 1.4em;
+     font-weight: 100;
+     padding: 10px;
+     width: 100%;
+     margin: 0;
+     text-transform: uppercase;
+ }
+
+ .box-viajes .box-head h4 i,
+ .box-viajes .box-head h4 strong {
+     color: #fff;
+ }
+
+ .box-viajes .box-head h4 strong {
+     font-weight: bold;
+     font-size: 1.05em;
+ }
+
+ .box-viajes .box-head h4 i {
+     font-size: 0.8em;
+     background: #17a2b8;
+     padding: 6px;
+     border-radius: 50%;
+     transform: rotate(-120deg);
+ }
+
+ .box2 .box-viajes .box-head h4 i {
+     background: #f1a204;
+ }
+
+ .box-viajes .top .prefix {
+     font-weight: bolder;
+     padding: 3px;
+     background: #eee;
+     color: gray;
+ }
+
+ .box-viajes .top li {
+     margin: 0;
+     text-align: center;
+ }
+
+ .box-viajes .top li.llamado {
+     display: none;
+ }
+
+ .box-viajes .main {
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+ }
+
+ .box-viajes .main li {
+     width: 100%;
+     padding: 3px 0;
+     border-bottom: 1px solid #ddd;
+     height: 49.5px;
+     position: relative;
+ }
+
+ .box-viajes .main li:last-of-type {
+     border: 0;
+ }
+
+ .box-viajes .main li a {
+     width: 100%;
+     vertical-align: middle;
+     transition: all ease 0.5s;
+     
+
+ }
+.box-viajes .main li a .descuento{
+    position: absolute;
+    color: #fff;
+    left: -10px;
+    top: 20%;
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;;
+    border:1px solid #ffc107;
+    background:#ffc107;
+    z-index: 99999;
+}
+.box-viajes .main li a .descuento:before {
+    content:'';
+    height:0;
+    width:0;
+    
+}
+.box-viajes .main li a .descuento:after {
+    content: 'DCTO';
+    font-size: 0.7em;
+    display: block;
+    margin-top: -4px;
+}
+.box-viajes .main li a .x2{
+    position: absolute;
+    color: #fff;
+    left: -10px;
+    top: 20%;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    border:1px solid #ff9800;
+    z-index: 99999;
+    background:#ff9800;
+    font-style: normal;
+}  
+.box-viajes .main li a .segundopasajero{
+    position: absolute;
+    color: #fff;
+    left: -9px;
+    top: 14%;
+    padding: 1px 3px;
+    font-weight: bold;
+    text-align: center;   
+    z-index: 99999;
+    background:#2196f3;
+}
+.box-viajes .main li a .segundopasajero em {
+   background: none;
+    display: block;
+    font-size: 0.78em;
+    line-height: 7.8px;
+    color: #fff;
+    font-style: normal;
+}
+ .box-viajes .main li a:hover span.centrador {
+     background: #ddd;
+ }
+
+ .box-viajes .main li a .left,
+ .box-viajes .main li a .right {
+     float: left;
+     width: 50%;
+     text-align: center;
+     padding: 0
+ }
+
+ .box-viajes .main li a .right em {
+     font-style: normal;
+     font-size: 0.5em;
+     display: block;
+     visibility: hidden;
+ }
+
+ .box-viajes .main li a .right i {
+     font-style: normal;
+     font-size: 1.1em;
+     padding: 2px 5px;
+     color: #607d8b;
+     font-weight: bold;
+ }
+
+ .box-viajes .main li a .right span {
+     padding: 3px 3px 2px;
+     margin-left: -3px;
+     margin-top: -1px;
+     color: #002566;
+ }
+
+ .box-viajes .main li a .left {
+     font-size: 1.1em;
+     font-weight: bolder;
+ }
+ .viajes-box .btn.btn-block {
+     margin: 0;
+     box-shadow: none;
+     background: #002566;
+     color: #fff;
+     padding: 6px;
+     font-weight: 100;
+     transition: all ease 0.5s;
+ }
+
+ .viajes-box .btn.btn-block i {
+     color: #fff;
+     margin-left: 5px;
+     font-size: 1em;
+ }
+ .viajes-box .btn.btn-block:hover {
+     background: #0076d4;
+ }
+ .viajes-box .btn.btn-block:hover i {
+     transform: rotate(90deg);
+ }
+.carruselV {
+    overflow:hidden;
+}
+ #carouselviajes1 {
+     margin: 1em 0 0;
+     padding: 0px 3px;
+     height:100%;
+     min-height: auto;
+ }
+#carouselviajes1 .carousel-inner{
+    height:100%;
+}
+#carouselviajes1 .carousel-inner .carousel-item {
+   height:100%;    
+}
+#carouselviajes1 .carousel-inner .carousel-item a{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    display: block;
+}
+ #carouselviajes1 .carousel-indicators {
+     bottom: 0;
+ }
+
+ #carouselviajes1 .carousel-indicators li {
+     background-color: #002566;
+     border-radius: 0;
+     height: 5px;
+     width: 25px;
+ }
+#carouselviajes1 .carousel-indicators li a {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    display: block;
+}
+.alianzas {
+     padding: 1.4em 1em 1em 1em;
+     position: relative;
+ }
+#alianzas .titulo-negocio {
+    height:auto;
+    margin-top:-20px;
+    margin-bottom:8px;
+}
+#alianzas .titulo-negocio col {
+    
+}
+#alianzas .alianzas .titulo-negocio .col-auto {
+   background:none;
+   font-size:1.5em
+}
+
+ .alianzas > div img {
+     width: 70%;
+     margin: 0 auto;
+     display: block;
+ }
+
+ .alianzas .delta img {
+     width: 69%;
+ }
+
+ .alianzas .iberia img {
+     width: 57%;
+ }
+
+ .alianzas .british img {
+     width: 71%;
+ }
+
+ .alianzas .sky img {
+     width: 30%
+ }
+
+ .alianzas .gol img {
+     width: 30%
+ }
+
+ .alianzas > div {
+     
+ }
+.alianzas .box  {
+    
+    padding: 0;
+    height:110px;
+    position:relative;
+    display:block;    
+}
+ .alianzas .box img {
+     padding:8px 0;
+}
+
+ .logo-container {
+     margin: 0;
+ }
+.alianzas span p {
+    margin:0 auto 6px ;
+    text-align:center;
+    width:95%;
+    display:block;
+    color:#002566;
+}
+.alianzas span {
+    width:100%;
+    display:block;
+}
+.alianzas span .btn {
+    padding: 1px 35px;
+    font-weight: 300;
+    display: block;
+    border-radius: 0px;
+    color:#002566!important;
+    background:none!important;
+    width:100%;
+    box-shadow: none;
+    text-decoration:underline;
+    position:absolute;
+    bottom:0;
+}
+.alianzas span .btn i {
+     color:#002566
+}
+ /*catalogos y card*/
+ 
+.catalogos .botonera-catalogos {
+    margin:4px 0;
+}
+.catalogos .botonera-catalogos li {
+    
+}
+.catalogos .botonera-catalogos li a {
+    padding:0px 5px;
+    transition:all ease 0.5s;
+}
+.catalogos .botonera-catalogos li a:hover {
+    background:#eee
+}
+.catalogos .botonera-catalogos li a img{
+    width:150px
+}
+ .catalogos .naipe {
+     padding: 9px 5px;
+ }
+
+ .catalogos .logo-container {
+     margin: 1em 0;
+ }
+
+
+ .tile {
+     position: relative;
+     overflow: hidden;
+     display: block;
+ }
+
+ .tile .caption-destacado {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 50%;
+     text-align: right;
+     z-index: 1;
+     padding: 10px;
+     color: #fff;
+     height: 100%;
+     transition: all ease .5s;
+ }
+
+ .tile .caption-destacado:after {
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: #ff5722;
+     z-index: -1;
+     transition: all ease .5s;
+ }
+
+ .tile.duty .caption-destacado:after {
+     background: #8bc34a;
+ }
+
+ .tile .caption-destacado:before {
+     content: 'Ver Más +';
+     position: absolute;
+     color: #ffff;
+     left: 10px;
+     bottom: 10px;
+     font-size: 0.8em;
+     border: 1px solid #ffff;
+     padding: 3px 5px;
+     opacity: 0;
+     transition: all ease 0.5s;
+     background: none;
+ }
+
+ .tile.duty .caption-destacado:before {
+     border-color: #8bc34a;
+ }
+
+ .tile:hover .caption-destacado {
+     right: -125px;
+ }
+
+ .tile:hover .caption-destacado:after {
+     opacity: 0.7;
+ }
+
+ .tile:hover .caption-destacado:before {
+     opacity: 1;
+ }
+
+ .tile .caption-destacado .intro {
+     font-size: 1.1em;
+     font-weight: 100;
+     color: #fff;
+     background: gray;
+     padding: 3px 5px;
+     margin-bottom: 5px;
+ }
+
+ .tile .caption-destacado .action {
+     position: absolute;
+     left: -15px;
+     padding: 5px 11px;
+     background: #fff;
+     top: 8px;
+ }
+
+ .tile .caption-destacado .action img {
+     display: block;
+     width: 109px;
+ }
+
+ .tile .caption-destacado .descuento em {
+     font-size: 2.3em;
+     font-style: normal;
+     font-weight: 500;
+ }
+
+ .tile .caption-destacado .descuento span {
+     display: block;
+     text-align: left;
+     font-size: 0.7em;
+     margin-bottom: -13px;
+     font-weight: 100;
+ }
+
+ .tile .caption-destacado .descuento strong {
+     display: block;
+     text-align: right;
+     font-weight: 100;
+     font-size: 0.7em;
+     margin-top: -15px;
+ }
+
+ .tile1 .caption-destacado .action {
+     left: auto;
+     right: 0;
+     top: -20px;
+ }
+
+ .catalogos .tile .caption-destacado .action {
+     display: none;
+ }
+
+ .tile1 .caption-destacado .descuento {
+     top: -28%;
+ }
+
+ .tile .caption-destacado .precio em {
+     font-style: normal;
+     font-weight: 600;
+     font-size: 1.1em;
+ }
+
+ .tile .caption-destacado .precio span {
+     display: block;
+     font-size: 0.7em;
+     font-weight: 100;
+     margin-bottom: -6px;
+
+ }
+
+ .tile .caption-destacado .texto-accion {
+     margin: 2px 0;
+     font-size: 2.5em;
+     font-weight: 100;
+     line-height: 1em;
+     color: #fff;
+ }
+
+ .tile .caption-destacado .texto-accion strong {
+     color: #fff;
+     font-weight: bold;
+ }
+
+ .tile1 .caption-destacado .texto-accion {
+     font-size: 1.9em;
+     margin: 0.3em 0 0.3em 0;
+ }
+
+ .tile .caption-destacado .bajada {
+     font-size: 1em;
+     line-height: 1.5;
+     margin: 0;
+     font-weight: 300;
+     color: #333;
+     background: #fff;
+     padding: 1px 4px;
+     margin-top: 4px;
+ }
+
+ .tile .caption-destacado .strong {
+     font-weight: bolder;
+ }
+
+ .tile1 .caption-destacado {
+     width: 100%;
+     height: auto;
+     bottom: 0;
+     top: inherit;
+     text-align: left;
+ }
+
+ .tile1:hover .caption-destacado {
+     right: inherit;
+     bottom: -100px;
+ }
+
+ .tile1 .caption-destacado:before {
+     bottom: auto;
+     top: -60px;
+ }
+
+ .catalogos-cards .card {
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
+     transition: all ease 0.5s;
+     position: relative;
+     padding-top: 0.8em;
+ }
+
+ .catalogos-cards .card .wrap-img {
+     position: relative;
+ }
+
+ .catalogos-cards .card .wrap-img:after {
+     content: ' ';
+     width: 100%;
+     min-height: 100%;
+     height: auto;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: #607d8b;
+     opacity: 0.1;
+     z-index: 1;
+ }
+
+ .catalogos-cards .card-body,
+ .catalogos-cards .card-img-overlay {
+     padding: 0
+ }
+.catalogos-cards .card-img-overlay {
+    margin-top: 1em;
+}
+ .catalogos-cards .card-body {
+     margin-top: 1em;
+     width: 65%;
+ }
+
+ .catalogos-cards .card .card-body .prec1 {
+     color: #63ac23;
+     font-size: 1em;
+     margin: 0;
+ }
+
+ .catalogos-cards .tienda .card .card-body .prec1 {
+     color: #f18f00;
+ }
+
+ .catalogos-cards .card .card-title {
+     font-size: 0.9em;
+     font-weight: 500;
+     margin: 0;
+     text-align: left;
+ }
+
+ .catalogos-cards .card .card-title.mas33 {
+     font-size: 0.782em;
+ }
+
+ .catalogos-cards .card .card-body .precio {
+     text-align: left;
+     font-size: 1em;
+ }
+
+ .catalogos-cards .card .ahorro {
+     font-size: 0.7em;
+     color: #a9a9a9;
+     margin: 0;
+     display: none;
+ }
+
+ .catalogos-cards .card .ahorro:before {
+     content: 'Ahorro ';
+     color: #fcb11b;
+     padding: 2px;
+     font-weight: 500;
+     font-size: 0.8em;
+ }
+
+ .catalogos-cards .card .precioNormal {
+     font-size: 0.75em;
+     color: #a9a9a9;
+     margin: 0;
+     text-align: left;
+ }
+
+ .catalogos-cards .card .cuotas {
+     font-size: 0.7em;
+     margin: 0;
+     color: #eee;
+     text-align: right;
+     background: #009652;
+     padding: 1px 2px;
+     display: none;
+ }
+
+ .catalogos-cards .tienda .card .cuotas {
+     background: #ff9800;
+ }
+
+ .catalogos-cards .tienda .card .Cae {
+     font-size: 0.66em;
+     text-align: center;
+     font-weight: bold;
+     color: #999;
+ }
+
+ .catalogos-cards .card .Cae {
+     font-size: 0.75em;
+     text-align: right;
+     margin: 0;
+     display: none;
+ }
+
+ .catalogos-cards .card .descuentoPorcent {
+     background: #ffa829;
+     color: #fff;
+     position: absolute;
+    bottom: 3%;     
+     height:35px;
+     width:35px;
+     text-align: center;
+     line-height: 29px ;
+     z-index: 2;
+     right: 0;
+     border-radius:50%;
+     margin:0
+     
+ }
+.catalogos-cards .card .descuentoPorcent:after {
+    content:"DCTO.";
+    display:block;
+    position:absolute;
+    top:9px;
+    left:8px;
+    font-size:7px
+    
+    
+}
+
+ .catalogos-cards .card:hover {
+     margin-top: -10px;
+     background: #f7f7f7;
+ }
+
+ .panoramas .naipe {
+     padding: 9px 5px;
+ }
+
+ .panoramas .logo-container {}
+
+ .panoramas .tile .caption-destacado {
+     height: auto;
+     bottom: 0;
+     top: auto;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-direction: column;
+     align-items: flex-end;
+     width: 100%;
+ }
+
+ .panoramas .tile .caption-destacado:after {
+     background: none;
+ }
+
+ .panoramas .tile:hover .caption-destacado {
+     right: 0;
+     bottom: -13%;
+ }
+
+ .panoramas .espectaculos .tile {
+     overflow: visible;
+     padding-bottom: 65px;
+     background: #eee;
+ }
+
+ .panoramas .espectaculos .tile .caption-destacado {}
+
+ .panoramas .espectaculos .tile:hover .caption-destacado {
+     bottom: 0;
+ }
+
+ .panoramas .espectaculos .tile:hover .caption-destacado:before {
+     top: -35px;
+     bottom: auto;
+     border-color: #fff !important;
+ }
+
+ .panoramas .espectaculos .tile .caption-destacado .intro {
+     font-size: 0.95em;
+     margin-bottom: 1em;
+     margin: 0;
+     font-weight: bolder;
+     color: black;
+     background: none;
+     flex: auto;
+ }
+ .panoramas .restaurantes .tile .eyecatcher {
+    margin: 0;
+    background: #eee;
+    color: #002566;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    font-size:0.9em;
+    padding: 3px 10px;
+    font-weight: 300;
+ }
+.panoramas .restaurantes .tile .eyecatcher.destacado {
+     Background: #003D59;
+    color:#fff;
+    font-size: 1em;
+}
+ .panoramas .btn.btn-block {
+     box-shadow: none;
+     background: #0079b2;
+     color: #fff;
+     font-weight: lighter;
+ }
+
+ .panoramas .tile .caption-destacado .texto-accion {
+     padding: 0.3em 1.1em;
+     background: black;
+     font-weight: bold;
+     font-size: 1.4em;
+     margin: 0;
+     flex: auto;
+ }
+ .panoramas .espectaculos .tile .caption-destacado .intro {
+     padding: 0;
+ }
+ .panoramas .espectaculos .tile .caption-destacado .texto-accion {
+     background: none;
+     color: #002566;
+     padding: 0;
+     font-size: 1.65em;
+     font-weight: 400;
+     margin-top: 2px;
+ }
+ .panoramas .row {
+     margin: 0;
+ }
+.panoramas .restaurantes .tile .caption-destacado .texto-accion {
+     width: 120px;
+     height: 120px;
+     background: none;
+     position: relative;
+ }
+.panoramas .restaurantes .D40 .tile .caption-destacado .texto-accion {
+     width: 55%;
+     height: auto;
+}
+.panoramas .restaurantes .D40 .tile .caption-destacado .texto-accion img{
+    width:100%;
+}
+.panoramas .restaurantes .D40 .tile .caption-destacado .texto-accion span {
+    padding:5px;
+}
+.panoramas .restaurantes .D40 .tile .caption-destacado .texto-accion span p{
+    margin:10px 0 0;
+    color: #002566;
+}
+.panoramas .restaurantes .D40 .tile .caption-destacado .texto-accion span h4{
+    margin:0 0 0.3em;
+    font-size:1.2em;
+    color: #002566;
+    font-weight: bold;
+}
+ .panoramas .restaurantes .tile .caption-destacado .texto-accion:after {
+     content: '';
+     background: #f0f0f0;
+     width: 100%;
+     height: 100%;
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: 0.9;
+     z-index: -1;
+ }
+.panoramas .restaurantes .tile:hover .caption-destacado {
+    bottom:0;
+    top:auto;
+}
+.panoramas .restaurantes .tile .caption-destacado:before {
+    top:auto;
+    bottom:7%;
+}
+ .panoramas .restaurantes .tile .caption-destacado .texto-accion span {
+     border: 1px solid #002566;
+     border-width: 1px 0;
+ }
+
+ .panoramas .restaurantes .tile .caption-destacado .texto-accion span {
+     display: block;
+     line-height: normal;
+     color: #002566;
+     font-weight: 300;
+     text-align: center;
+     font-size: 0.8em;
+     padding: 1em 0;
+
+ }
+
+ .panoramas .restaurantes .tile .caption-destacado .texto-accion span strong {
+     color: #002566;
+ }
+
+ .panoramas .restaurantes .tile1 .caption-destacado .texto-accion {
+     width: 105px;
+     height: 105px;
+     padding: 10px;
+ }
+
+ .panoramas .restaurantes .tile1 .caption-destacado .texto-accion span {
+     font-size: 0.8em;
+ }
+
+ .beneficios .naipe {
+     padding: 0 3px 5px;
+ }
+
+ .beneficios .logo-container {
+     margin: 1em 0;
+ }
+
+ .beneficios .tile {
+     overflow: hidden;
+ }
+
+ .beneficios .tile img {
+     transition: all ease 0.4s;
+     margin: 0 auto;
+     display: block;
+ }
+
+ .beneficios .tile:hover img {
+     
+}
+
+ .beneficios .tile .caption-destacado {
+     height: auto;
+     width: 100%;
+     bottom: 0;
+     top: auto;     
+     color: #fff;
+ }
+ .beneficios .tile .caption-destacado:after {
+     background:#17a2b8;
+ }
+ .beneficios .tile:hover .caption-destacado {
+     right: 0;
+     bottom: -13%;
+ }
+ .beneficios .tile .caption-destacado .bajada {
+     display: none;
+ }
+
+ .beneficios .tile .caption-destacado .intro {
+     font-size: 0.9em;
+     margin-bottom: 1em;
+
+ }
+
+ .beneficios .tile .caption-destacado .texto-accion {
+     color:#fff;
+     font-weight: 600;
+     font-size: 1.6em;
+     font-weight: 300;
+     text-align: left;
+     margin:0;
+ }
+
+ .beneficios .tile .caption-destacado .bajada * {
+     color: #17a2b8;
+ }
+
+ .btn-vermas {
+     box-shadow: none;
+     background: #0079b2;
+     color: #fff;
+     font-size: 0.85em;
+     font-weight: lighter;
+     padding: 0.5em 2em;
+ }
+
+ hr.separador {
+     overflow: visible;
+     padding: 0;
+     border: none;
+     border-top: medium solid #eee;
+     color: #333;
+     text-align: center;
+     width: 50%;
+     margin: 0 auto;
+ }
+
+ hr.separador:after {
+     content: ;
+     color: #909090;
+     font-family: Font Awesome\ 5 Pro;
+     display: inline-block;
+     position: relative;
+     top: -1.2em;
+     font-size: 0.7em;
+     padding: 0 0.25em;
+     background: white;
+ }
+
+ .titulo-negocio {
+     margin: 0;
+     width: 100%;
+ }
+
+ .titulo-negocio .col-auto,
+ .logo-container h2 {
+     font-size: 2.7em;
+     font-weight: 100;
+     padding: 5px 15px;
+     margin: 0 0.2em 0.1em;
+     text-align: center;
+     position: relative;
+     z-index: 2;
+     display: block;
+     margin: 0 auto;
+ }
+
+ .titulo-negocio > div {
+     padding: 0;
+ }
+
+ .logo-container h2::before {
+     display: block;
+     position: absolute;
+     left: auto;
+     top: 49%;
+     z-index: 0;
+     margin: 0
+ }
+
+ .logo-container h2::after {
+     content: "";
+     background: #fff;
+ }
+
+ .logo-container h5 {
+     text-align: center;
+     font-size: 1.3em;
+     font-weight: bold;
+     color: #002566;
+     padding: 7px 0 10px;
+     text-transform: uppercase;
+ }
+
+ #carrusel-beneficios .carousel-indicators {
+     bottom: -50px
+ }
+
+ #carrusel-beneficios .carousel-indicators {}
+
+ #carrusel-beneficios .carousel-indicators li {
+     background-color: #002566;
+ }
+
+ footer .RSS a i {
+     color: #fff;
+ }
+
+ footer .row ul .list-group-item {
+     background: none !important;
+ }
+
+ footer .row ul .list-group-item a {
+     text-transform: uppercase;
+     font-size: 0.8em
+ }
+
+ footer .row h5 {
+     color: #fff;
+     font-size: 1.1em;
+     font-weight: 100;
+     text-transform: uppercase;
+     border-bottom: 0.5px solid #fff;
+     padding-bottom: 4px;
+ }
+footer .row ul li {
+    border:0;
+    padding:10px
+}
+ footer {
+     background: #005cb3;
+ }
+
+ footer .footer-copyright {
+     background: #0e427e;
+ }
+
+ .alerta {
+     display: none;
+ }
+
+ .contador {
+     display: none;
+ }
+
+ .tooltip .tooltip-inner {
+     background: #cacaca;
+     color: #002566;
+     border-radius: 0;
+ }
+
+ .tooltip .arrow::before {
+     display: none;
+ }
+
+ .cajavuelos > .row {
+     background: #eee;
+     margin: 1em 0em 0 0;
+     padding: 1em;
+ }
+
+ .cajavuelos > .row div,
+ .cajavuelos > .row h4 {
+     padding-left: 0
+ }
+
+ .cajavuelos > .row h4 {
+     font-size: 2.3em
+ }
+
+ .cajavuelos > .row h4 {
+     color: #002566;
+ }
+
+ .cajavuelos input,
+ .cajavuelos select {
+     border-radius: 0;
+     font-size: 1.3em;
+     color: #666;
+     border: 2px solid #dadada;
+ }
+
+ .cajavuelos .form-label-group {
+     position: relative;
+     padding: 1.9em 0;
+ }
+
+ .cajavuelos .form-label-group label {
+     position: absolute;
+     font-size: 1.1em;
+     margin: 0;
+     top: 2px;
+ }
+
+ .cajavuelos .txt-item-passenger {
+     position: absolute;
+     font-size: 0.8em;
+     font-weight: 500;
+     line-height: 1.4em;
+     text-align: center;
+     color: #2196f3;
+     width: 100%;
+ }
+
+ .cajavuelos .form-check {
+     padding-top: 0.8em;
+     font-size: 1.1em;
+ }
+
+ .cajavuelos .btn {
+     padding: 0.7em;
+     box-shadow: none;
+     border-radius: 0;
+     margin: 1.6em 0;
+     font-weight: 100;
+     background: #002566 !important;
+ }
+
+
+ /* SELLOS */
+
+ .easePayment {
+     width: 68px;
+     position: absolute;
+     z-index: 9999;
+     display: block;
+ }
+
+ .easePayment.DP {
+     top:20px;
+     transform: rotate(10deg);
+     right:0
+ }
+.easePayment.DP span {    
+    color:#4caf50;
+    font-weight:bold;
+    padding:0px 4px;
+    display:block;
+    font-size:16px;
+    position:relative;
+}
+.easePayment.DP span:after {
+    content:' ';
+    width:60px;
+    height:60px;
+    background: url('../img/svg/DP2.svg') no-repeat 0 0;
+    position:absolute;
+    top:-19px;
+    left:1px;
+}
+ .easePayment.C24 {
+     width: 79px;
+     top: 20px;
+     right:-13px
+ }
+.easePayment.C24 span {
+   font-weight: bold;
+    display: block;
+    font-size: 20px;
+    color: orange;
+    position:relative;
+    
+}
+.easePayment.C24 span:after {
+    content:' ';
+    width:70px;
+    height:70px;
+    background: url('../img/svg/242.svg') no-repeat 0 0;
+    position:absolute;
+    top:-20px;
+    left:3.5px
+}
+/*owl fixes */
+
+html body .owl-theme .owl-nav {
+    position: absolute;
+    margin: 0;
+    top: 42%;
+    width:100%;
+}
+html body .owl-theme .owl-nav .owl-next,
+html body .owl-theme .owl-nav .owl-prev {
+    padding: 15px!important;
+}
+html body .owl-theme .owl-nav .owl-next {
+    float:right;
+}
+.owl-theme .owl-nav .owl-prev {
+        float: left;
+}
+/* hoteles tabla */
+#hoteles thead tr th {
+    font-weight:bolder;
+    text-align: center;
+    font-size:1.6em;
+}
+#hoteles tbody tr td{
+   vertical-align: middle; 
+text-align: center;
+}
+#hoteles tbody tr .feature {
+    color:#fff;
+    background:#EABC2F;
+    padding:5px 5px 15px;
+    font-size:1em;
+    position:relative;
+    font-weight:600;
+}
+#hoteles tbody tr .feature:after {
+    content:'DCTO';
+    display:block;
+    font-size:0.7em;
+    position:absolute;
+    left:5px;
+    bottom:3px;
+    font-weight:600;
+}
+#hoteles tbody tr h3 {
+    font-size:1.2em;
+    color: #002566;
+    font-weight:400;
+    margin:0;
+}
+#hoteles tbody tr h4 {
+    font-size: 1em;
+    margin: 0;
+    color: #607d8b;
+}
+#hoteles tbody tr h5 {
+    font-weight:400;
+     color: #002566;
+    margin:0;
+}
+#hoteles tbody tr h6 {
+    margin:0;
+    font-size:1em;
+}
+#hoteles tbody tr strong {
+    font-weight:normal;
+    font-size:0.8em;
+}
+#hoteles tbody tr em {
+    font-size:0.8em;
+    color:#999;
+    text-decoration: line-through;
+    margin:-10px 0 0 0
+}
+#hoteles tbody tr td i {
+    color:#fff;
+    background:#002566;
+    padding:8px;
+    border-radius: 50%;    
+}
+#hoteles tbody tr td button.btn-primary {
+    background-color:#002566!important;
+    box-shadow: none;
+    border-radius:none;
+}
+#viajes .productos-viajes {
+    padding:0
+}
+#viajes .productos-viajes .tab-pane .contenido{
+    padding:0 1em;
+}
+.productos-viajes .nav-tabs {
+    border:none;
+}
+.productos-viajes .nav-tabs .nav-item  {
+    height:55px;
+    position:relative;
+}
+.productos-viajes .nav-tabs .nav-item .nav-link{
+    background:#eee;
+    padding:12px 17px 18px;
+    display:block;
+    margin-right:2px;
+
+}
+.productos-viajes .nav-tabs .nav-item .nav-link:after {
+    content:'Vuelos';
+    position:absolute;
+    bottom:-1px;
+    left:15px;
+    color:#002566;
+    font-size:11px;
+}
+.productos-viajes .nav-tabs .nav-item #vuelos-tab:after {
+    content:'Vuelos';
+}
+.productos-viajes .nav-tabs .nav-item #paquetes-tab:after {
+    content:'Paquetes';
+    left:9px;
+}
+.productos-viajes .nav-tabs .nav-item #hoteles-tab:after {
+    content:'Hoteles';
+}
+.productos-viajes .nav-tabs .nav-item #cruceros-tab:after {
+    content:'Cruceros';
+    left:9px;
+}
+.productos-viajes .nav-tabs .nav-item #asistencia-tab:after {
+    content: 'Asistencia';
+    left:6px;
+}
+.productos-viajes .nav-tabs .nav-link.active {
+    background:#fff
+}
+.productos-viajes .nav-tabs .nav-item a img {
+    width:24px;    
+}
+.productos-viajes .cajavuelos {
+   
+}
+.productos-viajes .cajavuelos .row{
+    margin:0;
+    background: #fff
+}
+.productos-viajes .cajavuelos .row input,
+.productos-viajes .cajavuelos .row select{
+    border:1px solid #002566;
+}
+.productos-viajes .cajavuelos .row select {
+    color: #002566;
+    padding:0;
+}
+#viajes .botonera-viajes  li a {
+    padding: 7px 18px;
+    margin-left:-20px
+}
+#viajes .botonera-viajes  li a img {
+    width:150px
+}
+#viajes .productos-viajes .tab-content .contenido h4 {
+    padding: 0.5em 0; 
+    margin:0;
+    color: #002566;
+}
+#viajes .productos-viajes .tab-content .contenido p {
+    font-size:1.1em;
+    text-align: center;
+}
+#viajes .productos-viajes .tab-content .contenido a {
+    background:#002566!important;
+    margin:0px auto 12px;
+    display:block   
+}
+#viajes .owl-stage .tile2 .caption-destacado {
+    width:30%;
+}
+#viajes .owl-stage .tile .caption-destacado:after {
+    background:#002566;    
+}
+#viajes .owl-stage .tile2 .caption-destacado .intro {
+    color:#ffbb33;
+    font-weight: bold;
+    background:none;
+    padding:0;
+    font-size:1.2em;
+}
+#viajes .owl-stage .tile2 .caption-destacado .precio {
+    background:gray;
+}
+#viajes .owl-stage .tile2 .caption-destacado .precio *{
+    display:block;
+    color:#fff
+}
+#viajes .owl-stage .tile2 .caption-destacado .texto-accion {
+    font-size: 3em;
+    font-weight: lighter;
+}
+#viajes .owl-stage .tile2 .caption-destacado .bajada {
+    font-size:1.3em;
+}
+#viajes .owl-stage .tile2 .caption-destacado .bajada strong {
+    font-weight:bold;
+}
+#viajes .owl-stage .tile2 .caption-destacado.izquierda {
+    left:0;
+    right:auto;
+}
+#viajes .owl-stage .tile2 .caption-destacado.izquierda .centrador,
+#viajes .owl-stage .tile2 .caption-destacado.izquierda .intro,
+#viajes .owl-stage .tile2 .caption-destacado.izquierda .texto-accion,
+#viajes .owl-stage .tile2 .caption-destacado.izquierda .bajada {
+    text-align: left;
+}
+#viajes .tile .caption-destacado:after {
+    background:#002566; 
+}
+#viajes .tile1 .caption-destacado .intro{
+    color: #ffbb33;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+    font-size: 1.2em;
+    margin:0;
+}
+#viajes .cajavuelos > .row h4 {
+    font-size:1.8em;
+    margin:0;
+    padding:0
+}
+#viajes .cajavuelos > .row .form-check {
+    margin:0
+}
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+#beneficios .cards-bene {
+    margin-left:0px
+}
+#SliderBene {
+    margin-left:2px
+}
+#catalogosDestacados .contcata {
+    padding: 0;
+    margin: 0;
+}
+
+#catalogosDestacados  .botcat {
+    padding:0;
+    margin:0;
+    
+}
+
+#catalogosDestacados  .botcat .naipe { 
+    padding:4px 5px 4px 3px;
+    margin:0;
+    }
+#catalogosDestacados  .botcat .caption-destacado {
+    padding:5px
+}
+#catalogosDestacados .botcat .duty .caption-destacado:after {
+    background:#8bc34a;
+}
+#catalogosDestacados .botcat .caption-destacado .texto-accion {
+    margin:0;
+    font-size:1.3em;    
+}
+#catalogosDestacados .botcat .tile:hover .caption-destacado{
+    bottom:-50px
+}
